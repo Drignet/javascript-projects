@@ -12,6 +12,20 @@ body{
     margin: auto;
 }
 
+header{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 2%;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
 main{
     display: flex;
     width: 70%;
@@ -19,7 +33,7 @@ main{
     background-color: rgb(14, 185, 57, 0.9);
     border: 1px solid rgb(255, 215, 0, 0.4);
     margin: auto;
-    margin-top: 10%;
+    margin-top: 4%;
     border-radius: 4px;
 }
 
@@ -95,5 +109,10 @@ img{
 
     .increase, .decrease{
         display: none;
+    }
+
+    p{
+        font-size: 16px;
+        padding: 4px;
     }
 }

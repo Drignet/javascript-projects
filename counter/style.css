@@ -83,7 +83,7 @@ img{
         display: grid;
         grid-template-rows: 1fr 3fr 1fr;
         width: 70%;
-        height: 80vh;
+        height: 60vh;
     }
 
     .up{
@@ -97,14 +97,14 @@ img{
         width: 80%;
         height:74%;
         margin-top: 4%;
-        line-height: 2.3em;
+        line-height: 1.8em;
         font-size: 20vw;
         padding: 3%;
     }
     
     .down{
         display: block;
-        margin: 0 0 5% 40%;
+        margin: 0 0 0 40%;
         height: 60px;
         width: 60px;
     }

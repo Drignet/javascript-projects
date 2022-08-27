@@ -45,21 +45,22 @@ main{
     margin: auto;
     border: 1px solid rgb(255, 215, 0, 0.4);
     border-radius: 4%;
-    font-size: 14em;
+    font-size: 10vw;
+    line-height: 2em;
     text-align: center;
     color: #ffffff;
     padding: 3%;
 }
 
 .increase{
-    margin-top: 13%;
+    margin-top: 15%;
     height: 100px;
     width: 100px;
     margin-right: 10%;
 }
 
 .decrease{
-    margin-top: 13%;
+    margin-top: 15%;
     height: 100px;
     width: 100px;
     margin-left: 10%;
@@ -96,7 +97,8 @@ img{
         width: 80%;
         height:74%;
         margin-top: 4%;
-        font-size: 12em;
+        line-height: 2.3em;
+        font-size: 20vw;
         padding: 3%;
     }
     

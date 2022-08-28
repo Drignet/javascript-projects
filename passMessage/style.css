@@ -57,6 +57,7 @@ button{
 .deliver-note{
     margin-top: 2%;
     color: #ffffff;
+    word-wrap: break-word;
 }
 
 p{

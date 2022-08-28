@@ -72,6 +72,7 @@ p{
     main{
         margin-top: 40%;
         width: 90%;
+        height: 400px;
     }
 
     h1{
@@ -80,7 +81,7 @@ p{
     }
 
     p{
-        margin-top: 5%;
+        margin-top: 10%;
         font-size: 16px;
     }
     

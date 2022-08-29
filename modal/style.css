@@ -4,6 +4,7 @@
 }
 
 body{
+    text-align: center;
     margin: auto;
     background-color: #000000;
     background-image: url('images/bg-index.jpg');
@@ -124,7 +125,7 @@ body{
 @media screen and (max-width: 780px){
     .teams{
         top: 26%;
-        left: 14%;
+        left: 10%;
         height: 300px;
         width: 350px;
        

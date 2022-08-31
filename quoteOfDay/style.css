@@ -44,6 +44,7 @@ button{
 }
 
 .quote-text{
+	display: none;
     margin: 10% 4% 2% 4%;
     padding: 5%;
     line-height: 1.3em;

@@ -10,7 +10,6 @@ async function quoteFunc(){
     let res = await fetch(url);
     let data = await res.json();
     let randNum = Math.floor(Math.random() * 1644);
-	quote.style.backgroundColor = '#C393A6';
     quote.textContent = data[randNum].text;
     localStorage.setItem('q', data[randNum].text);
     if(data[randNum].author === null){

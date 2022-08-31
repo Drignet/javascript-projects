@@ -15,5 +15,6 @@ async function quoteFunc(){
     localStorage.setItem('q', data[randNum].text);
     author.textContent = data[randNum].author;
     localStorage.setItem('a', data[randNum].author);
+}
 
 button.addEventListener('click', quoteFunc)

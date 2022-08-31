@@ -10,13 +10,13 @@ async function quoteFunc(){
     let res = await fetch(url);
     let data = await res.json();
     let randNum = Math.floor(Math.random() * 1644);
-	if(data[randNum].text === null){
-		quote.textContent = 'Anonymous'
+    quote.textContent = data[randNum].text;
+    localStorage.setItem('q', data[randNum].text);
+	if(data[randNum].author === ''){
+		author.textContent = 'Anonymous';
 	}else{
-    quote.textContent = data[randNum].text
+    author.textContent = data[randNum].author;
 	}
-    localStorage.setItem('q', data[randNum].text)
-    author.textContent = data[randNum].author
-    localStorage.setItem('a', data[randNum].author)
+    localStorage.setItem('a', data[randNum].author);
 
 button.addEventListener('click', quoteFunc)

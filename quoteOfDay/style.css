@@ -26,6 +26,7 @@
     transform: translate(-50%, -50%);
     border-radius: 8px;
     border: 1px outset #C393A6;
+    text-align: center;
 }
 
 button{
@@ -33,17 +34,14 @@ button{
     height: 50px;
     width: 140px;
     border-radius: 10px;
-    position: fixed;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-top: 10%;
     border: 1px solid #ffffff;
     font-size: 16px;
     
 }
 
 .quote-text{
-    margin: 30% 4% 2% 4%;
+    margin: 10% 4% 2% 4%;
     padding: 5%;
     line-height: 1.3em;
     height: 80%;
@@ -67,9 +65,7 @@ button{
         width: 80%;
     }
 
-    .quote-text{
-        margin-top: 40%;
-    }
+    
 
     .author{
         margin-left: 5%;

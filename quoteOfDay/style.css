@@ -4,12 +4,12 @@
 }
 
 body{
-    background-color: rgb(128,128,128, 0.1);
+    background-color: rgb(128,128,128, 0.2);
 }
 .wrapper{
     background-color: #B193C3;
-    width: 40%;
-    height: 60%;
+    width: 50%;
+    height: 80%;
     margin: auto;
     position: fixed;
     top: 50%;
@@ -44,11 +44,11 @@ button{
 }
 
 .quote-text{
-	display: none;
+	ddisplay: none;
     margin: 10% 4% 2% 4%;
     padding: 5%;
     line-height: 1.3em;
-    height: 80%;
+    height: 90%;
     font-size: 1.1rem;
     word-wrap: break-word;
     opacity: 0.6;
@@ -64,14 +64,11 @@ button{
 }
 
 @media screen and (max-width: 768px){
+    .author{
+        margin-left: 5%;
+    }
     .wrapper{
         background-color: #B193C3;
         width: 80%;
-    }
-
-    
-
-    .author{
-        margin-left: 5%;
     }
 }

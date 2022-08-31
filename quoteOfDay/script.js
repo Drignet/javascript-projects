@@ -13,8 +13,14 @@ async function quoteFunc(){
 	quote.style.display = 'block';
     quote.textContent = data[randNum].text;
     localStorage.setItem('q', data[randNum].text);
+    if(data[randNum].author === null){
+        author.textContent = 'Anonymous'
+    }else{
     author.textContent = data[randNum].author;
+    }
     localStorage.setItem('a', data[randNum].author);
+    console.log(data[randNum].author)
+    console.log(typeof data[randNum].author)
 }
 
 button.addEventListener('click', quoteFunc)

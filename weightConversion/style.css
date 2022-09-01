@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: rgb(0,0,0, 0.8);
+}
+
+.wrapper{
+    background-color: rgb(121, 255, 109, 0.9);
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    padding: 4%;
+    border: 8px solid rgb(255, 255, 255, 0.4);
+}
+
+.function{
+    display: flex;
+    justify-content: center;
+}
+
+.function > label, input, button{
+    margin-left: 4%;
+}
+
+h1{
+    margin-bottom: 5%;
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgb(0,0,0, 0.4);
+    color: #ffffff;
+    padding: 14px;
+}
+
+label{
+    line-height: 2em;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+#pounds{
+    border-radius: 4px;
+    font-size: 1.1rem;
+    padding-left: 6px;
+    height: 38px;
+    border-color: rgb(243, 109, 255, 0.4);
+}
+
+#pounds:focus{
+    outline: none;
+    border-color: rgb(243, 109, 255, 0.3);
+}
+
+button{
+    background-color: rgb(243, 109, 255);
+    color: #ffffff;
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid rgb(243, 109, 255);
+    border-radius: 8px;
+}
+
+.result{
+    margin: auto;
+    text-align: center;
+    margin-top: 4%;
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    background-color: rgb(0,0,0, 0.1);
+    padding: 2px;
+    border-radius: 4px;
+    width: 80%;
+}
+
+@media  screen and (max-width: 768px) {
+    h1{
+            font-size: 1.2rem;
+            text-align: center;
+    }
+
+    label{
+        display: none;
+    }
+    
+
+    .function{
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+
+    button{
+       margin-top: 10px;
+    }
+
+    .result{
+        font-size: 0.8rem;
+    }
+}

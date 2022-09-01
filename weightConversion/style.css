@@ -25,6 +25,7 @@ body{
 
 .function > label, input, button{
     margin-left: 4%;
+    margin: auto;
 }
 
 h1{
@@ -79,9 +80,15 @@ button{
 }
 
 @media  screen and (max-width: 768px) {
+    .wrapper{
+        width: 90%;
+        height: 30%;
+    }
+
     h1{
             font-size: 1.2rem;
             text-align: center;
+            margin-top: 10%;
     }
 
     label{
@@ -93,13 +100,15 @@ button{
         display: block;
         margin: auto;
         text-align: center;
+        margin-top: 20%;
     }
 
     button{
-       margin-top: 10px;
+       margin-top: 20%;
     }
 
     .result{
         font-size: 0.8rem;
+        margin-top: 20%;
     }
 }

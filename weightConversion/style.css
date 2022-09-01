@@ -16,6 +16,8 @@ body{
     z-index: 1;
     padding: 4%;
     border: 8px solid rgb(255, 255, 255, 0.4);
+    width: 40%;
+    height: auto;
 }
 
 .function{
@@ -24,7 +26,7 @@ body{
 }
 
 .function > label, input, button{
-    margin-left: 4%;
+    margin-left: 2%;
     margin: auto;
 }
 
@@ -47,6 +49,7 @@ label{
     border-radius: 4px;
     font-size: 1.1rem;
     padding-left: 6px;
+    width: 40%;
     height: 38px;
     border-color: rgb(243, 109, 255, 0.4);
 }
@@ -59,7 +62,7 @@ label{
 button{
     background-color: rgb(243, 109, 255);
     color: #ffffff;
-    width: 80px;
+    width: 100px;
     height: 40px;
     font-size: 16px;
     border: 1px solid rgb(243, 109, 255);
@@ -81,14 +84,14 @@ button{
 
 @media  screen and (max-width: 768px) {
     .wrapper{
-        width: 90%;
-        height: 30%;
+        width: 86%;
+        height: auto;
     }
 
     h1{
             font-size: 1.2rem;
             text-align: center;
-            margin-top: 10%;
+            margin-top: 5%;
     }
 
     label{
@@ -100,15 +103,15 @@ button{
         display: block;
         margin: auto;
         text-align: center;
-        margin-top: 20%;
+        margin-top: 4%;
     }
 
     button{
-       margin-top: 20%;
+       margin-top: 5%;
     }
 
     .result{
         font-size: 0.8rem;
-        margin-top: 20%;
+        margin-top: 10%;
     }
 }

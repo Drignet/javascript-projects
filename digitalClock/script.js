@@ -11,6 +11,8 @@ function digitalClock() {
 
     const amPm = [' AM', ' PM'];
 
+hours = hours % 12;                                     hours = hours ? hours : 12;
+
     if (hours < 10) {
         hours = `${'0' + hours}`;
     }
@@ -20,9 +22,6 @@ function digitalClock() {
     if (seconds < 10) {
         seconds = `${'0' + seconds}`;
     }
-
-    hours = hours % 12;
-    hours = hours ? hours : 12;
 
     ourTime = `${hours}:${minutes}:${seconds}`;
     clock.childNodes[0].textContent = ourTime;

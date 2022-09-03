@@ -10,7 +10,7 @@ function digitalClock() {
     let ourTime;
 
     const amPm = [' AM', ' PM'];
-
+    (hours >= 12) ? clock.childNodes[1].textContent = amPm[1] : clock.childNodes[1].textContent = amPm[0];
 hours = hours % 12;                                     hours = hours ? hours : 12;
 
     if (hours < 10) {
@@ -26,7 +26,7 @@ hours = hours % 12;                                     hours = hours ? hours : 
     ourTime = `${hours}:${minutes}:${seconds}`;
     clock.childNodes[0].textContent = ourTime;
 
-    (hours > 12) ? clock.childNodes[1].textContent = amPm[1] : clock.childNodes[1].textContent = amPm[0];
+    
 }
 
 setInterval(color, 3000)

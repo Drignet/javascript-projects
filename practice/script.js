@@ -3,8 +3,8 @@ const btns = document.querySelectorAll('.btns');
 
 result.textContent = localStorage.getItem('number');
 
-let count = 0
 btns.forEach((btn) => {
+	let count = 0
     btn.addEventListener('click', e => {
         e.preventDefault;
     const ele = e.currentTarget.classList
@@ -12,6 +12,6 @@ btns.forEach((btn) => {
     
     result.textContent = count;
     count > 0 ? result.style.color = 'green' : count < 0 ? result.style.color = 'red' : result.style.color = 'gold';
-    localStorage.setItem('number' , result.textContent)
+    localStorage.setItem('number' , count)
     })
 })

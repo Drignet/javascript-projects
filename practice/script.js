@@ -15,6 +15,6 @@ result.textContent = localStorage.getItem('number');
 
 result.textContent = count;                             count > 0 ? result.style.color = 'green' : count < 0 ? result.style.color = 'red' : result.style.color = 'go    ld';
 
-localStorage.setItem('number' , count);
+localStorage.setItem('number' , result);
     })
 })

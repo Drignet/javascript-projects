@@ -12,6 +12,6 @@ btns.forEach((btn) => {
     
     result.textContent = count;
     count > 0 ? result.style.color = 'green' : count < 0 ? result.style.color = 'red' : result.style.color = 'gold';
-    localStorage.setItem('number' , count)
+    localStorage.setItem('number' , result.textContent)
     })
 })

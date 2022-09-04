@@ -1,9 +1,9 @@
-let count = 0;
+let count;
+localStorage.getItem('number') === '' ? count = localStorage.getItem('number') : count = 0;
 
 const result = document.querySelector('span');
 const btns = document.querySelectorAll('.btns');
 
-result.textContent = localStorage.getItem('number');
 
 btns.forEach((btn) => {
     btn.addEventListener('click', e => {

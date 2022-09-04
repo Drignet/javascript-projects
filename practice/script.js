@@ -1,6 +1,8 @@
 let count;
 localStorage.getItem('number') === '' ? count = localStorage.getItem('number') : count = 0;
 
+result.textContent = localStorage.getItem('number');
+
 const result = document.querySelector('span');
 const btns = document.querySelectorAll('.btns');
 

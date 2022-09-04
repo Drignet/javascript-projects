@@ -1,9 +1,9 @@
 let count = 0;
 
-result.textContent = localStorage.getItem('number');
-
 const result = document.querySelector('span');
 const btns = document.querySelectorAll('.btns');
+
+result.textContent = localStorage.getItem('number');
 
 
 btns.forEach((btn) => {

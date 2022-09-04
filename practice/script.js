@@ -1,5 +1,4 @@
-let count;
-localStorage.getItem('number') === '' ? count = localStorage.getItem('number') : count = 0;
+let count = 0;
 
 result.textContent = localStorage.getItem('number');
 

@@ -50,7 +50,8 @@ span{
 
     .btns{
         margin: 1em 0.8em;
-        width: 6em;
-        font-size: 0.4rem;
+        width: 8em;
+        height: 3em;
+        font-size: 0.5rem;
     }
 }

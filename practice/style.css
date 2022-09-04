@@ -41,14 +41,16 @@ span{
 
 @media screen and (max-width: 768px){
     .wrapper{
-        width: 90%;
+        width: 98%;
     }
     .button{
         justify-items: center;
-       margin-bottom: 2em;
+       margin:0 0 2em 0;
     }
 
     .btns{
         margin: 1em 0.8em;
+        width: 6em;
+        font-size: 0.4rem;
     }
 }

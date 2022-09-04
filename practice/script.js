@@ -1,10 +1,11 @@
+let count = 0;
+
 const result = document.querySelector('span');
 const btns = document.querySelectorAll('.btns');
 
 result.textContent = localStorage.getItem('number');
 
 btns.forEach((btn) => {
-	let count = 0
     btn.addEventListener('click', e => {
         e.preventDefault;
     const ele = e.currentTarget.classList

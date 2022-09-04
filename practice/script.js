@@ -1,7 +1,6 @@
 const result = document.querySelector('span');
 const btns = document.querySelectorAll('.btns');
 
-result.textContent = '0';
 result.textContent = localStorage.getItem('number');
 
 let count = 0

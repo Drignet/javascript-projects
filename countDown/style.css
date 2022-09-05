@@ -66,6 +66,7 @@ body{
     .wrapper h1{
         font-size: 2.2rem;
         text-decoration: #fff underline;
+        padding: 2em;
 
     }
 
@@ -75,11 +76,11 @@ body{
     }
 
     .timer .days{
-        font-size: 4rem;
+        font-size: 3rem;
     }
     
     .timer .hours{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     
     .timer .minutes{

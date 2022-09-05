@@ -13,7 +13,7 @@ textarea.addEventListener('keydown', e => {
     }
     else{
         words.textContent = `${inputs.split(' ').length} words`;
-        chars.textContent = `${inputs.length - inputs.match(/ /g).length} characters`;
-        spaces.textContent = `${inputs.match(/ /g).length} spaces`;
+        chars.textContent = `${inputs.match(/ \w/g).length} characters`;
+        spaces.textContent = `${inputs.match(/\s/g).length} spaces`;
     }
 })

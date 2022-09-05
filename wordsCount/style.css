@@ -50,9 +50,19 @@ body{
         width: 100%;
     }
 
-    .wrapper h1{
-        font-size: 0.6rem;
-        margin-bottom: 1em;
+    .wrapper .counts{
+        display: block;
+        justify-content: space-between;
     }
+
+    .counts .word-count, .char-count, .space-count{
+        width: 100%;
+        margin-top: 0.4em;
+    }
+
+    .wrapper h1{
+        font-size: 1.2em;
+    }
+    
     
 }

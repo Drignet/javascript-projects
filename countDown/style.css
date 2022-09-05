@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(19, 53, 22);
+
+}
+
+
+.wrapper h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 0.8em;
+    color: #fff;
+    width: 100%;
+    text-decoration: underline rgb(251, 251, 249);
+}
+
+.timer{
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 2em;
+    outline: 2px dotted gold;
+    outline-offset: 4px;
+    width: 80%;
+    background-color: #222;
+    max-width: 94%;
+}
+
+.timer .days, .hours, .minutes, .seconds{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+
+}
+
+.timer .days{
+    font-size: 6rem;
+}
+
+.timer .hours{
+    font-size: 5rem;
+}
+
+.timer .minutes{
+    font-size: 4rem;
+}
+
+.timer .seconds{
+    font-size: 3rem;
+}
+
+
+@media screen and (max-width: 768px){
+    .wrapper h1{
+        font-size: 2.2rem;
+        text-decoration: #fff underline;
+
+    }
+
+    .timer{
+        gap: 2rem;
+        width: 96%;
+    }
+
+    .timer .days{
+        font-size: 5rem;
+    }
+    
+    .timer .hours{
+        font-size: 4rem;
+    }
+    
+    .timer .minutes{
+        font-size: 3rem;
+    }
+    
+    .timer .seconds{
+        font-size: 2rem;
+    }
+    
+   
+}
+

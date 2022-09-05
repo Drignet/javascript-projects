@@ -75,19 +75,19 @@ body{
     }
 
     .timer .days{
-        font-size: 5rem;
-    }
-    
-    .timer .hours{
         font-size: 4rem;
     }
     
-    .timer .minutes{
+    .timer .hours{
         font-size: 3rem;
     }
     
-    .timer .seconds{
+    .timer .minutes{
         font-size: 2rem;
+    }
+    
+    .timer .seconds{
+        font-size: 1rem;
     }
     
    

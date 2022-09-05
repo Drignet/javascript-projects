@@ -4,7 +4,7 @@ const chars = document.querySelector('.char-count');
 const spaces = document.querySelector('.space-count');
 
 
-textarea.addEventListener('keydown', e => {
+textarea.addEventListener('input', e => {
     const inputs = textarea.value;
     if(inputs === ''){
         words.textContent = '0 word';

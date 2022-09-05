@@ -13,7 +13,7 @@ textarea.addEventListener('input', e => {
     }
     else{
         words.textContent = `${inputs.split(' ').length} words`;
-        chars.textContent = `${inputs.match(/ \w/g).length} characters`;
+        chars.textContent = `${inputs.match(/\w/g).length} characters`;
         spaces.textContent = `${inputs.match(/\s/g).length} spaces`;
     }
 })

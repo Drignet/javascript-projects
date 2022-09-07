@@ -20,11 +20,12 @@ body{
     transform: translate(-50% , -50%);
     text-align: center;
     background-color: #222;
-    padding: 2em 5em;
+    padding: 2em 2em;
     border-radius: 10px;
     line-height: 3em;
     outline: 2px dotted purple;
     outline-offset: 0.4em;
+    max-width: 94%;
 }
 
 .wrapper h1{
@@ -39,4 +40,10 @@ body{
 .wrapper em{
     font-size: 1em;
     color: rgb(227, 207, 26);
+}
+
+@media screen and (max-width: 768px){
+    body{
+        height: 1000px;
+    }
 }

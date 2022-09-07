@@ -46,4 +46,8 @@ body{
     body{
         height: 1000px;
     }
+
+    .wrapper p{
+        font-size: 2.4rem;
+    }
 }

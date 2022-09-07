@@ -31,30 +31,36 @@ header h1{
 .wrapper .input{
     margin: 1em;
     text-align: right;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    color: rgb(24, 3, 3, 0.8);
 }
 
-.input .label, input{
-    margin-top: 1.4em;
+.input .input-label{
+    text-align: left;
+    margin-top: 1em;
 }
 
-.input input{
+.input-label label{
+    line-height: 2.5em;
+}
+
+.input-value input{
+    height: 30px;
+    width: 50%;
+    margin-top: 1em;
     border-radius: 6px;
+    border: 1px outset #ccc;
 }
 
-.input label{
-    margin-top: 1.4em;
+.input-value input:nth-child(1){
+    width: 90%;
 }
 
-.input input[id="bill"]{
-    width:100px ;
-    height: 30px;
-    margin-left: 30%;
-}
 
-.input input[id="tip"], input[id="people"]{
-    width:30px ;
-    height: 30px;
-    margin-left: 44%;
+.input .input-value{
+    text-align: right;
+    margin-top: 1em;
 }
 
 .button{
@@ -74,28 +80,24 @@ header h1{
 }
 
 .wrapper .result{
-    text-align: left;
-    margin: 1em 1em;
+    width: 100%;
+    display: grid;
+    gap: 24%;
+    grid-template-columns: 2fr 1fr;
+    color: #fff;
+    margin: 1em;
 }
 
-.result p{
+.result .result-label p{
     margin-top: 1em;
 }
 
-.result p span{
-    float: right;
+.result-value .value{
+    margin-top: 1em;
 }
 
 @media screen and (max-width: 768px){
     .wrapper{
         width: 100%;
-    }
-
-    .input{
-        font-size: 0.8em;
-    }
-
-    .input input[id="bill"]{
-        margin-left: 26%;
     }
 }

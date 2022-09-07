@@ -2,7 +2,7 @@ const bill = document.querySelector('#bill');
 const tip = document.querySelector('#tip');
 const people = document.querySelector('#people');
 const btns = document.querySelectorAll('button');
-const results = document.querySelectorAll('span');
+const results = document.querySelectorAll('.value');
 
 btns.forEach((btn) => {
     btn.addEventListener('click', e => {
@@ -13,9 +13,12 @@ btns.forEach((btn) => {
             people.value = '';
 
             for(let i = 0; i < results.length; i++){
-            results[i].textContent = '0';
+            results[i].textContent = '';
             }
         }
+        else if (style.contains('calculate') && (bill.value === '') || (tip.value === '') || people.value === ''){
+            alert('dont leave it empty');
+            }
         else {
                 const tipAmount = Math.ceil(((+tip.value / 100) * +bill.value));
                 const totalAmount = (+bill.value + tipAmount);

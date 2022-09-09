@@ -14,7 +14,11 @@ check.addEventListener('click', e=> {
     let num2 = +nums[1].textContent;
     let answer = (num1 + num2);
 
-    if (answer === +ans.value){
+    if (ans.value === ''){
+        alert('please input your answer');
+    }
+
+    else if (answer === +ans.value){
         correctScore++;
         correct.childNodes[1].textContent = correctScore;
     }

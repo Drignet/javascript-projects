@@ -144,9 +144,10 @@ main #ans:focus{
 
     main #ans{
         padding-left: 0.4em;
-        width: 60%;
+        width: 80%;
         height: 3em;
         margin: auto;
+        margin-top: 0.6em;
         margin-bottom: 0.6em;
     }
 

@@ -9,6 +9,11 @@ const inCorrect = document.querySelector('.incorrect');
 let correctScore = 0;
 let incorrectScore = 0;
 
+correctScore = localStorage.getItem('correct-score');
+incorrectScore = localStorage.getItem('incorrect-score');
+
+correct.childNodes[1].textContent = localStorage.getItem('correct-score');
+inCorrect.childNodes[1].textContent = localStorage.getItem('incorrect-score');
 
 check.addEventListener('click', e=> {
     let num1 = +nums[0].textContent;
@@ -21,10 +26,12 @@ check.addEventListener('click', e=> {
 
     else if (answer === +ans.value){
         correctScore++;
+        localStorage.setItem('correct-score', correctScore);
         correct.childNodes[1].textContent = correctScore;
     }
     else{
         incorrectScore++;
+        localStorage.setItem('incorrect-score', incorrectScore);
         inCorrect.childNodes[1].textContent = incorrectScore;
         inCorrect.childNodes[1].style.color = 'red';
     }

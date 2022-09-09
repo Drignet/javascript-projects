@@ -38,6 +38,10 @@ header span{
     margin-left: 2em;
 }
 
+header .incorrect{
+    color: red;
+}
+
 main{
     display: grid;
     grid-template-columns: 3fr 1fr 3fr 2fr;

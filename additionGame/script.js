@@ -1,6 +1,7 @@
 const nums = document.querySelectorAll('.num');
 const ans = document.querySelector('#ans');
-const check = document.querySelector('button');
+const check = document.querySelector('#check');
+const reset = document.querySelector('#reset');
 const correct = document.querySelector('.correct');
 const inCorrect = document.querySelector('.incorrect');
 
@@ -34,6 +35,13 @@ check.addEventListener('click', e=> {
 
     nums[0].textContent = randomNumber();
     nums[1].textContent = randomNumber();
+})
+
+reset.addEventListener('click', e => {
+    correct.childNodes[1].textContent = '0';
+    inCorrect.childNodes[1].textContent = '0';
+    correctScore = 0;
+    incorrectScore = 0;
 })
 
 function randomNumber(){

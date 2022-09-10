@@ -49,6 +49,8 @@ reset.addEventListener('click', e => {
     inCorrect.childNodes[1].textContent = '0';
     correctScore = 0;
     incorrectScore = 0;
+	localStorage.setItem('correct-score', '0');
+	localStorage.setItem('incorrect-score', '0');
 })
 
 function randomNumber(){

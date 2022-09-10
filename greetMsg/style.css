@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(165, 42, 42, 0.4);
+}
+
+.wrapper{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding: 4em;
+    background-color: rgb(165, 42, 42);
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    outline: 1px outset goldenrod;
+    outline-offset: 0.4em;
+    max-width: 90%;
+}
+
+.msg{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1em;
+    max-width: 90%;
+}
+
+.wrapper #greet{
+    height: 40px;
+    width: 160px;
+    font-size: 1rem;
+    padding-left: 0.2em;
+    outline: 1px solid #fff;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+.wrapper #greet:focus{
+    border: 1px solid #fff;
+}
+
+button{
+    height: 40px;
+    width: 100px;
+}
+
+.close{
+    z-index: 10;
+}
+@media screen and (max-width: 786px){
+    .msg{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+}

@@ -65,3 +65,8 @@ button .minus{
     display: none;
 }
 
+@media screen and (max-width: 786px){
+    .wrapper{
+        width: 96%;
+    }
+}

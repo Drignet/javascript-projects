@@ -7,8 +7,11 @@ const closeIcon = document.createElement('span');
 closeIcon.classList = 'close';
 closeIcon.innerHTML = '&#9938';
 closeIcon.style.position = 'fixed';
-closeIcon.style.top = '1%';
-closeIcon.style.right = '1%';
+closeIcon.style.top = '2%';
+closeIcon.style.right = '2%';
+closeIcon.style.fontSize = '2em';
+closeIcon.style.color = 'yellow';
+closeIcon.style.cursor = 'pointer';
 
 btn.addEventListener('click' , e => {
     wrapper.textContent = `Good Morning , ${greet.value.toUpperCase()}`;

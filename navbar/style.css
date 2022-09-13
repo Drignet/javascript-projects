@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    background-color: rgb(204, 204, 204, 0.2);
+    min-height: 100vh;
+    font-family: Poppins,sans-serif;
+}
+
+.wrapper{
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+
+.wrapper header{
+    display: grid;
+    grid-template-columns: 1fr 7fr  2fr;
+    margin: 2em 2em;
+    justify-content:space-around;
+}
+
+header .logo{
+    font-size: 2em;
+    font-weight: 600;
+}
+
+header .menu{
+    
+}
+
+nav .main-menu-ul{
+    display: flex;
+    justify-content: start;
+    gap: 2em;
+}
+
+.main-menu-li a{
+    font-size: 1.2rem;
+}
+
+.main-menu-li .arrow-up{
+    display: none;
+}
+
+.main-menu-li .sub-menu{
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    margin-top: 1em;
+    box-shadow: 4px 4px 10px #ccc;
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.main-menu-ul .main-menu-li:hover{
+    font-weight: 800;
+}
+
+.sub-menu li{
+    font-size: 0.6rem;
+}
+
+header .login-reg{
+    display: flex;
+    gap: 1em;
+}
+
+.login-reg .login , .register{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #222;
+}
+
+.login-reg .login:hover , .register:hover{
+    font-weight: 700;
+}
+
+.wrapper main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5em;
+    margin: 2% 10%;
+}
+
+.wrapper .right{
+    background-image: url('images/image-hero-desktop.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 1em;
+    width: 100%;
+}
+
+.right img{
+    width: 86%;
+    max-height: 500px;
+    height: auto;
+}
+
+.wrapper .left{
+    margin-top: 7.5em;
+    height: auto;
+}
+
+.left h1{
+    font-size: 4rem;
+    line-height: 1em;
+    padding-bottom: 0.6em;
+}
+
+.left p{
+    font-size: 1.2rem;
+    opacity: 0.7;
+    line-height: 1.4em;
+}
+
+.left .learn-more{
+    border: 1px solid #222;
+    height: 40px;
+    width: 120px;
+    font-size: 1em;
+    margin: 3em 0 0 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.left .learn-more:hover{
+    font-weight: 600;
+}
+
+.left .sponsors{
+    margin-top: 3em;
+    display: flex;
+    gap: 2em;
+}
+
+.main-menu-ul .show-sub-menu{
+    display: block;
+}
+
+header .mobile-nav{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .wrapper header{
+        display: grid;
+        grid-template-columns: 12fr 1fr;
+        margin: 2em 2em;
+        justify-content: end;
+    }
+
+    header .main-menu-ul{
+        display: none;
+        width: 40%;
+        justify-content: end;
+        position: absolute;
+        z-index: 5;
+        top: 4%;
+        right: 1%;
+        line-height: 2em;
+        border: 1px solid #fff;
+        background-color: #fff;
+        box-shadow: 2px 2px 8px #ccc;
+        border-radius: 10px;
+        padding: 2em;
+
+    }
+
+    header .show-main-menu-ul{
+        display: block;
+    }
+
+    .main-menu-li .sub-menu{
+        padding: 0;
+        margin-top: 1em;
+        box-shadow: none;
+    }
+
+    .main-menu-li .sub-menu{
+        position: relative;
+    }
+
+    header .login-reg{
+        display: none;
+    }
+
+    header .mobile-nav{
+        display: block;
+        display: grid;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .wrapper main{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5em;
+        margin: 2% 10%;
+        text-align: center;
+    }
+
+    main .left{
+        order: 2;
+    }
+
+    main .right{
+        background-image: url('images/image-hero-mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        max-width: 100%;
+        height: 100vw;
+    }
+
+    .left h1{
+        font-size: 2rem;
+    }
+
+    .left .learn-more{
+        background-color: #222;
+        color: #fff;
+    }
+
+    .menu .main-menu-ul-mobile{
+        display: block;
+    }
+    
+}
+
+
+

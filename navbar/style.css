@@ -144,7 +144,8 @@ header .login-reg{
 .left .sponsors{
     margin-top: 3em;
     display: flex;
-    gap: 2em;
+    gap: 1em;
+    justify-content: center;
 }
 
 .main-menu-ul .show-sub-menu{
@@ -160,7 +161,7 @@ header .mobile-nav{
         display: grid;
         grid-template-columns: 12fr 1fr;
         margin: 2em 2em;
-        justify-content: end;
+        justify-content: space-between;
     }
 
     header .main-menu-ul{
@@ -214,6 +215,7 @@ header .mobile-nav{
 
     main .left{
         order: 2;
+        justify-content: center;
     }
 
     main .right{
@@ -243,6 +245,10 @@ header .mobile-nav{
 
     .menu .main-menu-ul-mobile{
         display: block;
+    }
+
+    .left .sponsors{
+        max-width: 100%;
     }
     
 }

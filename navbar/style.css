@@ -229,7 +229,7 @@ header .mobile-nav{
         background-size: contain;
         background-position: center;
         max-width: 96%;
-        height: 100vh;
+        height: 100vw;
         margin-top: 1em;
     }
 

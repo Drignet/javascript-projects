@@ -5,7 +5,7 @@ mainMenus.forEach((mainMenu) => {
     const subMenu = mainMenu.querySelector('.sub-menu');
     const arrow = mainMenu.querySelector('.arrow-down');
     arrow.addEventListener('click' , e => {
-        subMenu.classList.toggle('show-sub-menu')
+        subMenu.classList.toggle('show-sub-menu');
     })
     })
 

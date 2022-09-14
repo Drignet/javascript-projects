@@ -64,6 +64,7 @@ nav .main-menu-ul{
     display: none;
     position: absolute;
     z-index: 1;
+    min-width: 6%;
 }
 
 .main-menu-ul .main-menu-li:hover{
@@ -184,6 +185,7 @@ header .mobile-nav{
 
     header .show-main-menu-ul{
         display: block;
+        min-width: 60%;
     }
 
     .main-menu-li .sub-menu{

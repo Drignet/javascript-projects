@@ -227,7 +227,7 @@ header .mobile-nav{
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
-        max-width: 100%;
+        max-width: 96%;
         height: 100vw;
         margin-top: 1em;
     }

@@ -1,10 +1,10 @@
-const mainMenus = document.querySelectorAll('.main-menu-li');
+const mainMenus = document.querySelectorAll('.drop');
 const header = document.querySelector('header');
 
 mainMenus.forEach((mainMenu) => {
     const subMenu = mainMenu.querySelector('.sub-menu');
-    const arrow = mainMenu.querySelector('.arrow-down');
-    arrow.addEventListener('click' , e => {
+    const subHead = mainMenu.querySelector('.sub-head');
+    subHead.addEventListener('click' , e => {
         subMenu.classList.toggle('show-sub-menu');
     })
     })

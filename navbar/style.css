@@ -34,8 +34,9 @@ body{
 }
 
 header .logo{
-    font-size: 2em;
-    font-weight: 600;
+    width: 100%;
+    height: auto;
+
 }
 
 header .menu{
@@ -228,7 +229,7 @@ header .mobile-nav{
         background-size: contain;
         background-position: center;
         max-width: 96%;
-        height: 100vw;
+        height: 100vh;
         margin-top: 1em;
     }
 
@@ -252,7 +253,7 @@ header .mobile-nav{
     }
 
     .left .sponsors{
-        max-width: 100%;
+        max-width: 96%;
     }
     
 }

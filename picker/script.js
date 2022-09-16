@@ -34,11 +34,12 @@ textarea.addEventListener('keypress', e => {
 button.addEventListener('click', e => {
     const tags = outputArea.querySelectorAll('.tag');
 
-    tags.forEach((tag) => {
+
         const interval = setInterval(() => {
             const randTagNum = Math.floor(Math.random() * tags.length);
     
             tags[randTagNum].style.backgroundColor = 'red';
+            console.log(tags[randTagNum])
 
             setTimeout(() => {
                 tags[randTagNum].style.backgroundColor = 'purple'
@@ -55,7 +56,6 @@ button.addEventListener('click', e => {
             }, 100);
     
         }, 20 * 100);
-    })
 
     
 

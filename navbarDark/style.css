@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.wrapper{
+    dwidth: 100%;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.wrapper h1{
+    font-size: 5rem;
+    display: inline;
+    transition: all 1.5s ease-in-out 0.4s;
+    
+}
+
+.wrapper h1:hover{
+    background-image: linear-gradient(green , gold);
+    border-radius: 10px;
+    padding: 0.2em;
+    cursor: pointer;
+}
+
+.wrapper nav{
+    margin-top: 3em;
+    background-color: #222;
+    padding: 0.8em 0;
+    position: relative;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+ul .main-menu{
+    list-style: none;
+    border: 2px solid green;
+    padding: 0.5em;
+    font-size: 1.6em;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px #fff;
+    transition: all 1.5s ease-in-out 0.3s;
+}
+
+ul .main-menu:hover{
+    background-color: green;
+    border-color: #fff;
+    color: rgb(137, 7, 7);
+    transform: scale(0.75);
+    cursor: pointer;
+}
+
+.mobile-menu img{
+    background-color: #fff;
+    width: 12%;
+    height: auto;
+    transition: all 2s;
+}
+
+.mobile-menu img:hover{
+    transform: rotate(360deg);
+    background-color: green;
+    border: 1px solid #fff
+}
+
+nav .mobile-menu{
+    display: none;
+}
+
+@media screen and (max-width: 786px){
+    .wrapper h1{
+        font-size: 2.5rem;
+        
+    }
+
+    nav .main-menus{
+        display: none;
+        grid-template-rows: repeat(4, 1fr);
+        gap: 1em;
+        width: 50%;
+        margin-top: 2em;
+        margin: auto;
+        background-color: rgb(211, 199, 199);
+        border-radius: 10px;
+        padding: 1em 0;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: rotate(360deg) translate(-50%, 30%);
+        
+        transition: all 1s ease;
+    
+    }
+
+    .main-menus .main-menu{
+        background-color: #222;
+    }
+    
+
+    nav .mobile-menu{
+        display: inline;
+        cursor: pointer;
+    }
+    
+
+    nav .show-main-menu{
+        display: grid;
+    }
+    
+    
+}
+

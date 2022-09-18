@@ -79,13 +79,11 @@ nav .mobile-menu{
 
 @media screen and (max-width: 786px){
     .wrapper h1{
-        font-size: 2.5rem;
-        
-        
+        font-size: 2.5rem;        
     }
 
     nav .main-menus{
-        display: none;
+        display: grid;
         grid-template-rows: repeat(4, 1fr);
         gap: 1em;
         width: 50%;
@@ -95,8 +93,11 @@ nav .mobile-menu{
         border-radius: 10px;
         padding: 1em 0;
         position: absolute;
-        top: -100%;
+        top: 0;
+        dz-index: -500;
         left: 25%;
+        transform: translate(0, -500px);
+        transition: transform 2s;
     }
 
     .main-menus .main-menu{
@@ -112,6 +113,7 @@ nav .mobile-menu{
 
     nav .show-main-menu{
         display: grid;
+        transform: translate(0, 90px);
     }
     
     

@@ -1,6 +1,7 @@
 const wrapper = document.querySelector('.wrapper');
 const buttons = wrapper.querySelectorAll('button');
 const indicator = wrapper.querySelector('.progress-indicator');
+const circle = document.querySelectorAll('.circle')
 let indicatorWidth = 0;
 buttons.forEach((button) => {
     button.addEventListener('click', (e) => {

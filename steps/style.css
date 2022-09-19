@@ -29,6 +29,16 @@ body{
     background-color: rgb(165, 42, 42, 0.05);
 }
 
+body h1{
+    color: #222;
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 2em;
+    box-shadow: 2px 2px 20px brown;
+    padding: 0.5em 0;
+}
+
 .wrapper .progress-bar{
     width: 80vw;
     height: 0.4em;

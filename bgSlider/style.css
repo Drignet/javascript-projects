@@ -32,11 +32,11 @@ body::before{
     border-radius: 6%;
 }
 
-/* .wrapper img{
+.wrapper img{
     object-fit: cover;
     width: 100%;
     height: auto;
-} */
+}
 
 .button{
     position: fixed;

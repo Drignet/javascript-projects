@@ -67,3 +67,33 @@ body::before{
 .hidden{
     display: none;
 }
+
+@media screen and (max-width: 768px){
+    .wrapper{
+        display: grid;
+        width: 80%;
+    }
+    
+}
+
+@media screen and (max-width: 425px){
+    .wrapper{
+        display: grid;
+        width: 90%;
+    }
+
+    .button{
+        top:87%;
+        transform: translateY(-13%);
+    }
+
+    .left{
+        left: 25%;
+    }
+    
+    .right{
+        right: 25%;
+    }
+    
+    
+}

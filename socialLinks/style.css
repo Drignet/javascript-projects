@@ -12,11 +12,18 @@ body{
     background-color: rgb(34, 34, 34, 0.4);
 }
 
-.share{
+.container{
     position: fixed;
     left: 50%;
     top: 50%;
     transform: translate(-50% , -50%);
+}
+
+.container .share{
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    margin: auto;
     border: 5px solid rgb(255, 215, 0, 0.6);
     cursor: pointer;
     box-shadow: 2px 2px 5px rgb(255, 255, 255, 0.3) , 0px 2px 5px rgb(255, 255, 255, 0.6);
@@ -38,6 +45,7 @@ body{
 .share img{
     width: 4em;
     height: auto;
+    margin-top: 20px;
 }
 
 .wrapper{
@@ -45,10 +53,6 @@ body{
     display: grid;
     gap: 4em;
     grid-template-columns: repeat(5, 1fr);
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50% , -50%);
     border: 2px solid rgb(255, 215, 0, 0.6);
     padding: 1em;
     border-radius: 4em;

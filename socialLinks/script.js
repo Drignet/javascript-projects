@@ -11,6 +11,6 @@ cancel.addEventListener('click' , () => {
     wrapper.style.opacity = '0';
     setTimeout(() => {
         share.classList.remove('share-remove');
-    }, 2000)
+    }, 1600)
     
 })

@@ -16,7 +16,7 @@ h1{
 }
 
 .about-dao{
-    padding: 1.5em;
+    padding: 1.5em 1.5em 4em 1.5em;
     font-size: 2em;
     line-height: 1.5em;
     background-color: rgb(34, 34, 34, 0.1);
@@ -25,6 +25,6 @@ h1{
 
 @media screen and (max-width: 768px){
     .about-dao{
-        padding: 0.5em;
+        padding: 0.5em 0.5em 2em 0.5em;
     }
 }

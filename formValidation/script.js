@@ -14,7 +14,7 @@ const regName = /\d+$/g;
 
 btn.addEventListener('click' , (e) => {
     e.preventDefault();
-    
+    console.log(birthDate.value)
     if (surname.value === '' || regName.test(surname.value)){
         alert('Please enter your surname properly');
         surname.focus();
@@ -23,6 +23,11 @@ btn.addEventListener('click' , (e) => {
     if (otherNames.value === '' || regName.test(otherNames.value)){
         alert('Please enter your other names properly');
         otherNames.focus();
+    }
+
+    if (birthDate.value === '' ){
+        alert('Please enter your date of Birth');
+        birthDate.focus();
     }
 
     if (+state.value === 0){

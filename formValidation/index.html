@@ -22,19 +22,19 @@
                 <figcaption></figcaption>
             </figure>
         </header>
-        <form action="">
+        <form action="" name="exam">
             <p>
-            <label for="surname">SURNAME: </label><input type="text" name="surname" id="surname" placeholder="surname">
+            <label for="surname">SURNAME: </label><input type="text" name="surname" id="surname" placeholder="surname" required>
             <p>
-            <label for="other-names">OTHER NAMES: </label><input type="text" name="other-names" id="other-names" placeholder="other names">
+            <label for="other-names">OTHER NAMES: </label><input type="text" name="other-names" id="other-names" placeholder="other names" required>
             </p>
             </p>
             <p>
-            <label for="birth-date">DATE OF BIRTH: </label><input type="date" name="birth-date" id="birth-date" placeholder="24/07/1984">
+            <label for="birth-date">DATE OF BIRTH: </label><input type="date" name="birth-date" id="birth-date" required>
             </p>
             <p>
             <label for="state">STATE: </label>
-            <select name="state" id="state">
+            <select name="state" id="state" required>
                 <option value="0">select</option>
                 <option value="1">Abia</option>
                 <option value="2">Adamawa</option>
@@ -76,13 +76,13 @@
             </select>
             </p>
             <p>
-            <label for="lga">L.G.A.: </label><input type="text" name="lga" id="lga" placeholder="local government">
+            <label for="lga">L.G.A.: </label><input type="text" name="lga" id="lga" placeholder="local government" required>
             <p>
-            <label for="phone">PHONE NO.: </label><input type="text" inputmode="numeric" name="phone" id="phone" placeholder="phone number" min="11" max="14">
+            <label for="phone">PHONE NO.: </label><input type="text" inputmode="numeric" name="phone" id="phone" placeholder="phone number" min="10" max="14" required>
             </p>
             <p>
             <label for="subject">SUBJECT: </label>
-            <select name="subject" id="subject" size="22" data-native-menu="false" multiple="">
+            <select name="subject" id="subject" size="22" data-native-menu="false" multiple required>
                 <option value="0">select</option>
                 <option value="1">English</option>
                 <option value="2">General Mathematics</option>
@@ -108,7 +108,7 @@
             </select>
             </p>
             <p>
-            <label for="tc" class="tc">There will be no refund of <br>money after payment:    </label><input type="text" name="sign" id="sign">
+            <label for="tc" class="tc">There will be no refund of <br>money after payment:    </label><input type="text" name="sign" id="sign" readonly>
             </p>
             <label for="button"></label><button class="register" type="submit">Register</button>
         </form>

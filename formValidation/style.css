@@ -121,5 +121,9 @@ input::placeholder{
     form .tc{
         font-size: 0.4rem;
     }
+
+    select[name="subject"]{
+        height: 2.5em;
+    }
     
 }

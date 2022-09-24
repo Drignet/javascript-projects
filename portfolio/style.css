@@ -79,7 +79,7 @@ header .dark-btn{
     width: 2em;
     height: 1.2em;
     background-color: var(--btn-color);
-    border: 3px solid var(--border-color);
+    border: 2px solid var(--border-color);
     border-radius: 10px;
     padding: 0.1em;
     display: flex;
@@ -98,11 +98,14 @@ header .dark-btn{
 .wrapper main{
     margin-top: 3%;
     width: 100%;
+    display: grid;
+    justify-content: center;
 }
 
 .wrapper .line{
     height: 0.02em;
     border-color: var(--border-color);
+    background-color: var(--btn-color);
 }
 
 main .intro{
@@ -193,6 +196,42 @@ footer .foot{
     box-shadow: 1px 1px 4px #CDCBD6 , 1px 1px 4px #CDCBD6;
 }
 
+/*----------About ------------*/
+
+main .drignet{
+    margin: auto;
+    display: grid;
+    justify-content: center;
+}
+
+.drignet img{
+    width: 20em;
+    height: auto;
+    border-radius: 100%;
+    margin: auto;
+}
+
+.drignet figcaption{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: var(--head-text-color);
+    border: 0.05em solid var(--border-color);
+    background-color: var(--btn-color);
+    padding: 0.5em 0;
+    border-radius: 10px;
+}
+
+main .profile-para{
+    margin: auto;
+    font-size: 1.4rem;
+    color: var(--normal-text);
+    padding: 2% 2% 6% 2%;
+    background-color: rgb(89, 98, 53, 0.2);
+    width: 50%;
+}
+
 /*----------@media Home ------------*/
 
 @media screen and (max-width: 768px){
@@ -240,5 +279,24 @@ footer .foot{
         gap: 2em;
     }
     
+
+}
+
+/*----------@media About ------------*/
+@media screen and (max-width: 768px){
+main .profile-para{
+    width: 80%;
+}
+
+.drignet img{
+    margin: 5%;
+}
+
+.drignet figcaption{
+    max-width: 100%;
+    margin: auto;
+    padding: 1em;
+    margin-bottom: 1em;
+}
 
 }

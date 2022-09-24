@@ -1,0 +1,224 @@
+:root{
+    --background-color : #D96846;
+    --btn-color : #596235;
+    --head-text-color : #fff;
+    --normal-text : #CDCBD6;
+    --border-color : #2F3020;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto' sans-serif;
+    margin: 0 auto;
+    background-color: var(--background-color);
+    overflow-x: hidden;
+}
+
+.wrapper{
+    margin: 0 5%;
+    width: 100%;
+}
+
+.wrapper header{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    justify-content: space-evenly;
+    gap: 5%;
+    height: 4em;
+    align-items: center;
+}
+
+header .logo{
+    font-size: 1.6em;
+    color: var(--btn-color);
+    font-weight: 700;
+}
+
+.logo::before{
+    content: 'D';
+    font-size: 3rem;
+}
+
+header .menus{
+    display: flex;
+    flex: 1;
+    gap: 5%;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.menus a{
+    text-decoration: none;
+}
+
+.menus .menu{
+    font-size: 1.8rem;
+    color: var(--head-text-color);
+    display: inline-block;
+}
+
+.menus .img-menu{
+    display: inline;
+    
+}
+
+.img-menu img{
+    width: 1.4em;
+    height: auto;
+    margin-right: 10px;
+    filter: invert(15%) sepia(13%) saturate(1091%) hue-rotate(25deg) brightness(96%) contrast(90%);
+}
+
+.wrapper main{
+    margin-top: 3%;
+    width: 100%;
+}
+
+.wrapper .line{
+    height: 0.02em;
+    border-color: var(--border-color);
+}
+
+main .intro{
+    text-align: center;
+    line-height: 5em;
+}
+
+.intro .emoji{
+    font-size: 2.4rem;
+    color: var(--normal-text);
+}
+
+.intro .name{
+    font-size: 4rem;
+    color: var(--normal-text);
+}
+
+main .what-i-do{
+    text-align: center;
+    margin-top: 4%;
+}
+
+.what-i-do .auto-text{
+    font-size: 2.6rem;
+    padding: 0.5em;
+    background-color: var(--head-text-color);
+    width: 50%;
+    margin: auto;
+    border: 0.1em dotted var(--border-color);
+    box-shadow: 1px 1px 5px #fff , 2px 2px 2px #fff;
+    white-space: nowrap;
+}
+
+.what-i-do .skills{
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    flex: 1;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 1rem;
+    color: var(--normal-text);
+}
+
+main .cv{
+    margin:4% auto;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    
+}
+
+.cv button{
+    height: 3em;
+    width: 7em;
+    border-radius: 4em;
+    outline: none;
+    background-color: var(--btn-color);
+    border-color: var(--border-color);
+    color: var(--head-text-color);
+}
+
+.wrapper footer{
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50% , -0);
+}
+
+footer .foot{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    gap: 4em;
+    width: 100%;
+}
+
+.social img{
+    width: 2em;
+    height: auto;
+    color: var(--head-text-color);
+    background-color: var(--head-text-color);
+    border-radius: 100%;
+    border: 0.2em solid;
+    border-color: var(--border-color);
+    box-shadow: 1px 1px 4px #CDCBD6 , 1px 1px 4px #CDCBD6;
+}
+
+/*----------@media Home ------------*/
+
+@media screen and (max-width: 768px){
+    .wrapper header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    header .menus{
+        display: none;
+    }
+
+    .intro .emoji{
+        font-size: 1.8rem;
+    }
+
+    .intro .name{
+        font-size: 2rem;
+    }
+
+    main .what-i-do{
+        text-align: center;
+        margin-top: 4%;
+        width: 100%;
+    }
+    
+    .what-i-do .auto-text{
+        font-size: 2.4rem;
+        padding: 0.3em;
+        width: 90%;
+    }
+
+    .what-i-do .skills{
+        gap: 3px;
+        margin-top: 6%;
+        font-size: 0.7rem;
+    }
+
+    main .cv{
+        margin:12% auto;
+        
+    }
+
+    footer .foot{
+        margin: 0 4% 0 4%;
+        gap: 2em;
+    }
+    
+
+}

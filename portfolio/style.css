@@ -251,8 +251,10 @@ footer .foot{
 
 main .drignet{
     margin: auto;
+    margin-bottom: 2em;
     display: grid;
     justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .drignet img{
@@ -272,6 +274,7 @@ main .drignet{
     background-color: var(--btn-color);
     padding: 0.5em 0;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 main .profile-para{
@@ -281,6 +284,7 @@ main .profile-para{
     padding: 2%;
     background-color: rgb(89, 98, 53, 0.2);
     width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .wrapper .space{
@@ -308,6 +312,8 @@ main .profile-para{
     margin: 2em 0;
     font-size: 2.4rem;
     color: var(--head-text-color);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 0.2em 0;
 }
 
 .project .icons{
@@ -338,6 +344,13 @@ main .profile-para{
     box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
     border-radius: 15%;
     border: 0.01em solid var(--head-text-color);
+    box-shadow: rgba(232, 223, 223, 0.17) 0px -23px 25px 0px inset, rgba(240, 232, 232, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(239, 229, 229, 0.06) 0px 2px 1px, rgba(246, 236, 236, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(242, 238, 238, 0.09) 0px 16px 8px, rgba(235, 227, 227, 0.09) 0px 32px 16px;
+    transition: all 0.6s ease-in 0s;
+}
+
+.left img:hover{
+    transform: rotate(360deg);
+    background-color: #fff;
 }
 
 .right img{
@@ -347,7 +360,15 @@ main .profile-para{
     box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
     border-radius: 100%;
     border: 0.01em solid var(--head-text-color);
+    box-shadow: rgba(232, 223, 223, 0.17) 0px -23px 25px 0px inset, rgba(240, 232, 232, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(239, 229, 229, 0.06) 0px 2px 1px, rgba(246, 236, 236, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(242, 238, 238, 0.09) 0px 16px 8px, rgba(235, 227, 227, 0.09) 0px 32px 16px;
+    transition: all 0.6s ease-in 0s;
 }
+
+.right img:hover{
+    transform: scale(1.5);
+    background-color: #fff;
+}
+
 
 .project h1{
     font-size: 2rem;
@@ -377,7 +398,15 @@ main .profile-para{
     margin-bottom: 2em;
     color: var(--head-text-color);
     box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    transition: all 0.6s ease-in 0s;
 }
+
+.btns button:hover{
+    transform: scale(0.8);
+    background-color: rgb(0, 255, 255, 0.6);
+}
+
 
 /*----------contact ------------*/
 

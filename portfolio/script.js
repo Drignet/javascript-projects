@@ -19,7 +19,7 @@ btnDarkMode.addEventListener('click' , () => {
     wrapper.classList.toggle('d');
 })
 
-share.addEventListener('mouseover' , () => {
+share.addEventListener('click' , () => {
     
         contactSocial.classList.toggle('show-social');
 

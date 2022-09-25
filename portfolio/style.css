@@ -546,7 +546,7 @@ body .dark-mode-control{
 
 @media screen and (max-width: 768px){
         header .menus{
-            display: none;
+            display: grid;
             justify-content: center;
             position: fixed;
             top: 12%;
@@ -558,10 +558,13 @@ body .dark-mode-control{
             border-top-right-radius: 2em;
             border-bottom-right-radius: 2em;
             padding: 2em;
+            transform: translateX(-500px);
+            transition: transform 2s ease-in-out 0s;
+            
     }
 
     header .show{
-        display: grid;
+        transform: translateX(0);
     }
 
     .menus a{

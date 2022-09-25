@@ -200,6 +200,10 @@ footer .foot{
     box-shadow: 1px 1px 4px #CDCBD6 , 1px 1px 4px #CDCBD6;
 }
 
+.wrapper .menu-handle{
+    display: none;
+}
+
 /*----------About ------------*/
 
 main .drignet{
@@ -421,10 +425,10 @@ main .profile-para{
     }
 
         header .menus{
-            display: grid;
+            display: none;
             justify-content: center;
             position: fixed;
-            top: 10%;
+            top: 12%;
             left: 0;
             text-decoration: none;
             list-style: none;
@@ -433,6 +437,10 @@ main .profile-para{
             border-top-right-radius: 2em;
             border-bottom-right-radius: 2em;
             padding: 2em;
+    }
+
+    header .show{
+        display: grid;
     }
 
     .menus .menu{
@@ -479,6 +487,29 @@ main .profile-para{
     footer .foot{
         margin: 0 4% 0 4%;
         gap: 2em;
+    }
+
+    .wrapper .menu-handle{
+        display: block;
+        position: fixed;
+        top: 35%;
+        left: 0%;
+    }
+
+    .menu-handle .open-close{
+        width: 3em;
+        height: 8em;
+        padding: 1em;
+        background-color: var(--btn-color);
+        border-top-right-radius: 2em;
+        border-bottom-right-radius: 2em;
+        border: 1px solid var(--border-color);
+    }
+
+    .menu-handle .open-close strong{
+        writing-mode: vertical-rl;
+        font-size: 1em;
+        color: var(--head-text-color);
     }
     
 

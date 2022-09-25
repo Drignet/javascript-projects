@@ -424,12 +424,13 @@ main .profile-para{
     background-color: var(--btn-color);
 }
 
-body .dark-mode{
+body .dark-mode-control{
     justify-content: end;
 }
 
-body .d{
-    background-color: #222;
+.dark-mode{
+    background-color: black;
+    color: #fff;
 }
 
 

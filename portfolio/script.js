@@ -15,8 +15,8 @@ menuHandle.addEventListener('click' , () => {
 
 btnDarkMode.addEventListener('click' , () => {
     const darkBtn = header.querySelector('.dark-btn');
-    darkBtn.classList.toggle('dark-mode');
-    wrapper.classList.toggle('d');
+    darkBtn.classList.toggle('dark-mode-control');
+    document.body.classList.toggle('dark-mode');
 })
 
 share.addEventListener('click' , () => {

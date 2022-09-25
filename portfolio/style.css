@@ -6,6 +6,14 @@
     --border-color : #2F3020;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -36,8 +44,10 @@ body{
 header .logo{
     font-size: 1.6em;
     color: var(--btn-color);
-    text-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    box-shadow: rgba(236, 230, 230, 0.17) 0px -23px 25px 0px inset, rgba(246, 244, 244, 0.15) 0px -36px 30px 0px inset, rgba(241, 232, 232, 0.1) 0px -79px 40px 0px inset, rgba(216, 211, 211, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(244, 240, 240, 0.09) 0px 16px 8px, rgba(243, 235, 235, 0.09) 0px 32px 16px;
     font-weight: 700;
+    padding: 0 0.5em 0 0.5em;
+    border-radius: 0.2em;
 }
 
 .logo::before{
@@ -60,11 +70,24 @@ header .menus{
     text-decoration: none;
 }
 
+.logo a{
+    text-decoration: none;
+    color: var(--btn-color);
+}
+
 .menus .menu{
     font-size: 1.8rem;
     color: var(--head-text-color);
-    text-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    box-shadow: rgba(236, 230, 230, 0.17) 0px -23px 25px 0px inset, rgba(246, 244, 244, 0.15) 0px -36px 30px 0px inset, rgba(241, 232, 232, 0.1) 0px -79px 40px 0px inset, rgba(216, 211, 211, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(244, 240, 240, 0.09) 0px 16px 8px, rgba(243, 235, 235, 0.09) 0px 32px 16px;
     display: inline-block;
+    padding: 0.05em 0.2em 0.05em 0.2em;
+    border-radius: 0.1em;
+    transition: all 1s linear 0s;
+}
+
+.menus .menu:hover{
+    background-color: rgb(0, 255, 255, 0.6);
+    transform: rotate(360deg);
 }
 
 .menus .img-menu{
@@ -77,6 +100,13 @@ header .menus{
     height: auto;
     margin-right: 10px;
     filter: invert(15%) sepia(13%) saturate(1091%) hue-rotate(25deg) brightness(96%) contrast(90%);
+    box-shadow: rgba(236, 230, 230, 0.17) 0px -23px 25px 0px inset, rgba(246, 244, 244, 0.15) 0px -36px 30px 0px inset, rgba(241, 232, 232, 0.1) 0px -79px 40px 0px inset, rgba(216, 211, 211, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(244, 240, 240, 0.09) 0px 16px 8px, rgba(243, 235, 235, 0.09) 0px 32px 16px;
+    border-radius: 0.5em;
+    transition: scale 0.5s ease-in-out 0s;
+}
+
+.img-menu img:hover{
+    transform: scale(1.5);
 }
 
 header .dark-btn{
@@ -88,6 +118,7 @@ header .dark-btn{
     padding: 0.1em;
     display: flex;
     justify-content: start;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 
 }
 
@@ -120,12 +151,16 @@ main .intro{
 .intro .emoji{
     font-size: 2.4rem;
     color: var(--normal-text);
+    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .intro .name{
     font-size: 4rem;
     color: var(--normal-text);
-    text-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1em;
+    padding: 0.3em;
+    margin-bottom: 0.8em;
 }
 
 main .what-i-do{
@@ -134,13 +169,12 @@ main .what-i-do{
 }
 
 .what-i-do .auto-text{
-    font-size: 2.6rem;
+    font-size: 1.8rem;
     padding: 0.5em;
     background-color: var(--head-text-color);
     width: 70%;
     margin: auto;
-    border: 0.1em dotted var(--border-color);
-    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     border-radius: 1em;
     white-space: nowrap;
 }
@@ -151,13 +185,14 @@ main .what-i-do{
     gap: 6px;
     flex: 1;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 6%;
     font-size: 1rem;
     color: var(--normal-text);
+    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 main .cv{
-    margin:4% auto;
+    margin: 8% auto;
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -173,6 +208,13 @@ main .cv{
     border-color: var(--border-color);
     color: var(--head-text-color);
     cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    transition: all 0.6s ease-in 0s;
+}
+
+.cv button:hover{
+    transform: scale(0.8);
+    background-color: rgb(0, 255, 255, 0.6);
 }
 
 .wrapper footer{
@@ -198,7 +240,7 @@ footer .foot{
     border-radius: 100%;
     border: 0.2em solid;
     border-color: var(--border-color);
-    box-shadow: 1px 1px 4px #CDCBD6 , 1px 1px 4px #CDCBD6;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .wrapper .menu-handle{
@@ -477,7 +519,7 @@ body .dark-mode-control{
     }
     
     .what-i-do .auto-text{
-        font-size: 2.4rem;
+        font-size: 1.4rem;
         padding: 0.3em;
         width: 90%;
     }

@@ -5,8 +5,15 @@ const menuHandle = document.querySelector('.menu-handle');
 
 const contactSocial = document.querySelector('.contact-socials');
 const share = document.querySelector('.share');
+const whatDo = wrapper.querySelector('.what-i-do');
+const autoText = wrapper.querySelector('.auto-text');
 
+const mes = ['I Am A Creator' , 'A Software Engineer' , 'A FrontEnd Developer' , 'A UI Designer'];
 
+setInterval(() => {
+        autoText.textContent = mes[Math.floor(Math.random() * mes.length)];
+        autoText.style.color = '#' + (Math.random().toString(16).slice(2,8));
+}, 2000)
 
 menuHandle.addEventListener('click' , () => {
     const mobileMenu = header.querySelector('.menus');
@@ -23,9 +30,7 @@ share.addEventListener('click' , () => {
     
         contactSocial.classList.toggle('show-social');
 
-    setTimeout(() => {
-        contactSocial.classList.remove('show-social');
-    }, 10000)
+    
     
 })
 

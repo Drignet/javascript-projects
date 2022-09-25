@@ -23,6 +23,7 @@ body{
     margin: 0 auto;
     width: 100%;
     padding:0 4%;
+    height: 100vh; 
 }
 
 .wrapper header{
@@ -378,8 +379,11 @@ main .profile-para{
 
 .contact-right .share{
     justify-content: center;
+    margin: auto;
     margin-top: 2em;
     background-color: rgb(89, 98, 53, 0.2);
+    width: 5em;
+    border-radius: 100%;
 }
 
 .share img{
@@ -397,7 +401,7 @@ main .profile-para{
 }
 
 .contact-right .contact-socials{
-    display: flex;
+    display: none;
     flex: 1;
     flex-direction: row-reverse;
     justify-content: center;
@@ -409,6 +413,10 @@ main .profile-para{
     gap: 3em;
 }
 
+.contact-right .show-social{
+    display: flex;
+}
+
 .contact-socials img{
     border: 0.4em solid var(--border-color);
     border-radius: 100%;
@@ -416,14 +424,18 @@ main .profile-para{
     background-color: var(--btn-color);
 }
 
+body .dark-mode{
+    justify-content: end;
+}
+
+body .d{
+    background-color: #222;
+}
+
 
 /*----------@media Home ------------*/
 
 @media screen and (max-width: 768px){
-    .wrapper header{
-        
-    }
-
         header .menus{
             display: none;
             justify-content: center;
@@ -441,10 +453,6 @@ main .profile-para{
 
     header .show{
         display: grid;
-    }
-
-    .menus .menu{
-        ddisplay: block;
     }
 
     .menus a{

@@ -428,7 +428,7 @@ main .profile-para{
             left: 0;
             text-decoration: none;
             list-style: none;
-            background-color: var(--btn-color);
+            background-color: rgb(89, 98, 53, 0.2);
             border: 1px solid var(--border-color);
             border-top-right-radius: 2em;
             border-bottom-right-radius: 2em;

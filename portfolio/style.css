@@ -333,13 +333,19 @@ main .profile-para{
 .wrapper .contact{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
     margin: auto;
     padding: 5% 10%;
     gap: 2em;
 }
 
+.contact .contact-left{
+    margin: auto;
+}
+
 .contact-left img{
-    width: 400px;
+    width: 100%;
     height: auto;
 }
 

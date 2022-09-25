@@ -553,7 +553,7 @@ body .dark-mode-control{
             left: 0;
             text-decoration: none;
             list-style: none;
-            background-color: rgb(89, 98, 53, 0.2);
+            background-color: rgb(89, 98, 53, 0.5);
             border: 1px solid var(--border-color);
             border-top-right-radius: 2em;
             border-bottom-right-radius: 2em;

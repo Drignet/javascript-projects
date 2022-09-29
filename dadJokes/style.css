@@ -89,13 +89,10 @@ figure img{
     .wrapper{
         display: grid;
         grid-template-columns: 1fr;
+        height: 50vh;
     }
 
     .joke-wrapper p,h1{
         padding: 0.1em;
-    }
-
-    .wrapper .joke-wrapper{
-        margin-bottom: 4em;
     }
 }

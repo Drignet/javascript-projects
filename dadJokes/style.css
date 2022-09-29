@@ -1,0 +1,84 @@
+:root{
+    --para-font-size: 1.4rem;
+    --heading-font-size: 2.2em;
+    --border-color: #FCA3B9;
+    --button-color: #6184C6;
+    --para-color: #222;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FCD752;
+    font-family: sans-serif;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4em;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+}
+
+.wrapper figure{
+    text-align: center;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+figure img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.wrapper .joke-wrapper{
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--border-color);
+    padding: 2em;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.joke-wrapper p{
+    font-size: var(--para-font-size);
+    padding: 2em;
+    line-height: 1.6em;
+    color: var(--para-color);
+    text-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    
+}
+
+.joke-wrapper button{
+    background-color: var(--button-color);
+    width: 8em;
+    height: 3em;
+    color: #fff;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+@media screen and (max-width: 768px){
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

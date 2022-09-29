@@ -89,7 +89,7 @@ figure img{
     .wrapper{
         display: grid;
         grid-template-columns: 1fr;
-        margin: 1em 0;
+        margin: 4em 0;
     }
 
     .joke-wrapper p,h1{

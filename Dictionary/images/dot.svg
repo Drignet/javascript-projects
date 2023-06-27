@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+
+<defs>
+</defs>
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" >
+	<linearGradient id="SVGID_5" gradientUnits="userSpaceOnUse" x1="45" y1="84.7883" x2="45" y2="4.2607">
+<stop offset="0%" style="stop-color:#ac4121;stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:#e2712b;stop-opacity: 1"/>
+</linearGradient>
+<circle cx="45" cy="45" r="45" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: url(#SVGID_5); fill-rule: nonzero; opacity: 1;" transform="  matrix(1 0 0 1 0 0) "/>
+	<path d="M 45.001 35 c 3.155 0 5.778 0.937 7.87 2.811 c 2.09 1.874 3.136 4.27 3.136 7.189 c 0 2.921 -1.046 5.317 -3.136 7.189 C 50.779 54.063 48.156 55 45.001 55 c -3.196 0 -5.829 -0.947 -7.9 -2.839 c -2.071 -1.894 -3.107 -4.28 -3.107 -7.161 c 0 -2.878 1.036 -5.266 3.107 -7.161 C 39.171 35.947 41.804 35 45.001 35 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+</g>
+</svg>

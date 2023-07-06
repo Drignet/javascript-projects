@@ -1,0 +1,222 @@
+[
+  {
+    "question": "What is the capital city of France?",
+    "options": {
+      "A": "Paris",
+      "B": "Rome",
+      "C": "Madrid",
+      "D": "Berlin"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "options": {
+      "A": "Pablo Picasso",
+      "B": "Vincent van Gogh",
+      "C": "Leonardo da Vinci",
+      "D": "Claude Monet"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": {
+      "A": "Saturn",
+      "B": "Venus",
+      "C": "Jupiter",
+      "D": "Mars"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Who is the author of 'To Kill a Mockingbird'?",
+    "options": {
+      "A": "J.D. Salingere",
+      "B": "F. Scott Fitzgerald",
+      "C": "Harper Lee",
+      "D": "Ernest Hemingway"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "options": {
+      "A": "Au",
+      "B": "Ag",
+      "C": "Fe",
+      "D": "Pb"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Which country is known for its famous pyramids?",
+    "options": {
+      "A": "Egypt",
+      "B": "Greece",
+      "C": "China",
+      "D": "Mexico"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Who invented the telephone?",
+    "options": {
+      "A": "Thomas Edison",
+      "B": "Alexander Graham Bell",
+      "C": "Nikola Tesla",
+      "D": "Albert Einstein"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What is the largest planet in our solar system?",
+    "options": {
+      "A": "Jupiter",
+      "B": "Saturn",
+      "C": "Neptune",
+      "D": "Uranus"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "options": {
+      "A": "Mark Twain",
+      "B": "William Shakespeare",
+      "C": "Charles Dickens",
+      "D": "Jane Austen"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What is the chemical symbol for sodium?",
+    "options": {
+      "A": "No",
+      "B": "So",
+      "C": "Sd",
+      "D": "Na"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Which country is known as the 'Land of the Rising Sun'?",
+    "options": {
+      "A": "Japan",
+      "B": "China",
+      "C": "South Korea",
+      "D": "Thailand"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Who is the Greek god of the sea?",
+    "options": {
+      "A": "Zeus",
+      "B": "Poseidon",
+      "C": "Hades",
+      "D": "Apollo"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What is the largest ocean on Earth?",
+    "options": {
+      "A": "Pacific Ocean",
+      "B": "Atlantic Ocean",
+      "C": "Indian Ocean",
+      "D": "Arctic Ocean"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Who is the author of the Harry Potter book series?",
+    "options": {
+      "A": "J.K. Rowling",
+      "B": "Stephen King",
+      "C": "George R.R. Martin",
+      "D": "C.S. Lewis"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Which famous scientist developed the theory of relativity?",
+    "options": {
+      "A": "Marie Curie",
+      "B": "Isaac Newton",
+      "C": "Galileo Galilei",
+      "D": "Albert Einstein"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Which country is home to the Taj Mahal?",
+    "options": {
+      "A": "Nigeria",
+      "B": "China",
+      "C": "Egypt",
+      "D": "India"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "What is the national animal of Australia?",
+    "options": {
+      "A": "Emu",
+      "B": "Koala",
+      "C": "Kangaroo",
+      "D": "Platypus"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Who painted the famous artwork 'The Starry Night'?",
+    "options": {
+      "A": "Vincent van Gogh",
+      "B": "Pablo Picasso",
+      "C": "Salvador Dali",
+      "D": "Michelangelo"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "What is the largest land animal in the world?",
+    "options": {
+      "A": "Rhinoceros",
+      "B": "Giraffe",
+      "C": "Hippopotamus",
+      "D": "Elephant"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Who is the current CEO of Tesla Motors?",
+    "options": {
+      "A": "Elon Musk",
+      "B": "Jeff Bezos",
+      "C": "Tim Cook",
+      "D": "Satya Nadella"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Which planet is known as the 'Red Planet'?",
+    "options": {
+      "A": "Mercury",
+      "B": "Venus",
+      "C": "Mars",
+      "D": "Uranus"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Who wrote the novel 'Pride and Prejudice'?",
+    "options": {
+      "A": "Jane Austen",
+      "B": "Charlotte Bronte",
+      "C": "Emily Dickinson",
+      "D": "Virginia Woolf"
+    },
+    "answer": "A"
+  }
+]
